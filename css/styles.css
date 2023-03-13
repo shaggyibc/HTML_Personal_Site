@@ -1,7 +1,68 @@
 body {
         background-color: #D3EBCD;
+        margin: 0;
+        font-family: 'Merriweather', serif;
 }
 
+
+h1 {
+        position: relative;
+        text-align: center;
+        margin-top: 0;
+        font-size: 5.625rem;
+        font-family: 'Sacramento', cursive;
+
+}
+
+h2 {
+        position: relative;
+        font-weight: normal;
+        font-family: 'Montserrat', sans-serif;
+}
+h3 {
+        position: relative;
+        text-align: center;
+        margin-top: 0;
+        color: #839AA8;
+        font-family: 'Montserrat', sans-serif;
+}
+
+.headline {
+        position: relative;
+        text-align: center;
+        margin-top: 0;
+        bottom: 90px;
+        color: white;
+        font-size: 2.5rem;
+        border-bottom: .2rem solid white;
+        padding-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    position:relative;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(mountainR.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 60%;
+    background-attachment: fixed;
+}
+p {
+        position: relative;
+}
+
+td {
+        position: relative;
+}
 hr {
         border-style: none;
         background-color: none;
@@ -10,10 +71,31 @@ hr {
         width: 10%;
 }
 
-h1 {
-        color: #635666
+.head-shot {
+    position: absolute;
+    top: 12px;
+    left: 5%;
 }
 
-h3 {
-        color: #839AA8
+.computer-img {
+    position: absolute;
+    top: 12px;
+    right: 5%;
+}
+
+.laptop-image {
+    position: relative;
+    width: 25%;
+    float: left;
+}
+img {
+    position: absolute;
+    top-margin: 0px;
+    top: 50px;
+    right: 50px;
+}
+
+.skill-row {
+    width: 50%
+    margin: 100px auto 100px auto
 }
