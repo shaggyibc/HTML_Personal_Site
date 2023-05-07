@@ -23,7 +23,8 @@ h3 {
         position: relative;
         text-align: center;
         margin-top: 0;
-        color: #839AA8;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.5); /* Change the color and opacity as needed */
         font-family: 'Montserrat', sans-serif;
 }
 
